@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--
+        加载requirejs脚本的script标签加入了data-main属性，
+        这个属性指定的js将在加载完reuqire.js后处理，
+        我们把require.config的配置加入到data-main后，
+        就可以使每一个页面都使用这个配置，
+        然后页面中就可以直接使用require来加载所有的短模块名。
+
+        data-main属性的作用是，指定网页程序的主模块。
+    -->
+    <script data-main="../js/main" src="../js/require/require.js"></script>
+</head>
+<body>
+    <p>ddddddddd</p>
+</body>
+</html>
